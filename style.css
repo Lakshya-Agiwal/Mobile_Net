@@ -1,0 +1,43 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  canvas
+  {
+   border: 1px black solid;
+   animation-name: color;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+  
+  }
+  @keyframes color
+  {
+  from
+  {
+    box-shadow:4px 4px 10px red;
+  }
+  to
+  {
+    box-shadow:4px 4px 10px greenyellow;
+  }
+  }
+ 
+ 
